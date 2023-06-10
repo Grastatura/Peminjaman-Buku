@@ -44,7 +44,7 @@
         <li class="nav-item">
             <a class="nav-link @if (Request::is('dashboard/user*')) {{ 'active' }} @endif"" href=" /dashboard/user">
                 <span data-feather="users"></span>
-                Management User
+                Daftar Anggota
             </a>
         </li>
         <!-- <li class="nav-item">
