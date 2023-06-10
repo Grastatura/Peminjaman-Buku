@@ -1,4 +1,4 @@
-<x-app-layout titles="Manage book">
+<x-app-layout titles="Daftar Buku">
     @if ($errors->any())
     <div class="alert alert-danger">
         <ul>
