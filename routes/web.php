@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthorController;
+// use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\BorrowController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\PublisherController;
+// use App\Http\Controllers\CategoryController;
+// use App\Http\Controllers\PublisherController;
 use App\Http\Controllers\UserController;
 
 /*
