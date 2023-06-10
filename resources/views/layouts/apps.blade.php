@@ -11,8 +11,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="/assets/img/favicon.png" rel="icon">
-    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/assets/img/logo.png" rel="icon">
 
     <!-- Google Fonts -->
     <link
@@ -42,18 +41,18 @@
                     <li><a class="nav-link scrollto active" href="/">Home</a></li>
                     <li><a class="nav-link scrollto active" href="/borrow">Detail</a></li>
                     @auth
-                        @role('admin')
-                            <li><a class="getstarted scrollto" href="/dashboard">dashboard</a></li>
-                        @else
-                            <form action="{{ route('logout') }}" method="post">
-                                @csrf
-                                <li><button type="submit" class="getstarted scrollto">logout</button></li>
-                            </form>
-                        @endrole
-                        
+                    @role('admin')
+                    <li><a class="getstarted scrollto" href="/dashboard">dashboard</a></li>
+                    @else
+                    <form action="{{ route('logout') }}" method="post">
+                        @csrf
+                        <li><button type="submit" class="getstarted scrollto">logout</button></li>
+                    </form>
+                    @endrole
+
                     @endauth
                     @guest
-                        <li><a class="getstarted scrollto" href="/login">Login</a></li>
+                    <li><a class="getstarted scrollto" href="/login">Login</a></li>
                     @endguest
 
                 </ul>
