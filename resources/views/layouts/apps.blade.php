@@ -11,7 +11,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="/assets/img/logo.png" rel="icon">
+    <link href="/assets/img/logo.png" rel="logo">
 
     <!-- Google Fonts -->
     <link

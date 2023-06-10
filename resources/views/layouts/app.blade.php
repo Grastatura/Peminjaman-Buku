@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Dashboard {{ $title }}</title>
-    <link href="/assets/img/logo.png" rel="icon">
+    <link href="/assets/img/logo.png" rel="logo">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
