@@ -1,8 +1,6 @@
 <x-guest-layout>
     <x-jet-authentication-card>
-        <x-slot name="logo">
-            <img href="public/assets/img/logo.png" alt="logo">
-        </x-slot>
+        <img href="public/assets/img/logo.png" alt="logo">
 
         <x-jet-validation-errors class="mb-4" />
 
